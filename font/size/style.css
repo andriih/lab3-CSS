@@ -1,0 +1,44 @@
+body{
+	background-color: #bebcbb;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.px,
+.em,
+.pt,
+.percent
+{
+
+	width: 600px;
+	height: 00px;
+	text-align: center;
+	font-size: 24px;
+	color:#000;
+	margin:0 auto;
+	font-family: "Segoe UI Light";
+	text-align: justify;
+}
+
+.px{
+	font-size: 15px;
+}
+.em{
+	font-size: 25px;
+}
+#em{
+	font-size: 2em;
+
+}
+.pt{
+	font-size: 15pt;
+}
+.percent{
+	font-size: 90%;
+}
