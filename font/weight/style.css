@@ -1,0 +1,38 @@
+body{
+	background-color: #bebcbb;
+}
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.normal,
+.custom,
+.lighter,
+.bold
+{
+
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	font-size: 24px;
+	color:#000;
+	margin:0 auto;
+	font-family: "Segoe UI Light";
+	text-align: justify;
+}
+
+.normal{
+	font-weight: normal;
+}
+.lighter{
+	font-weight: lighter;
+}
+.bold{
+	font-weight: bold;
+}
