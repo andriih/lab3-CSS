@@ -1,0 +1,52 @@
+body{
+	background-color: purple;
+}
+h1{
+	text-align: center;
+	margin-top: 48px;
+	color: white;
+}
+h2 {
+  text-align: center;
+  margin-top: 48px;
+  color: white;
+}
+
+ .fixed , .scroll, .local{
+
+	background-image: url("https://placehold.it/200x200");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	max-height: 500px;
+	height: 500px;
+
+	width: 800px;
+  	overflow-y: scroll;
+
+	border: 2px solid white;
+	margin: 50px auto;
+	
+	border: 2px solid black;
+
+}
+.fixed{
+	background-attachment: fixed;
+	background-color: lightblue;
+}
+.scroll{
+	background-attachment: scroll;
+	background-color: pink;
+
+}
+
+.local{
+	background-attachment: local;
+	background-color: yellow;
+
+}
+.fixed:after, .scroll:after, .local:after {
+	content: "";
+	display: block;
+	height: 900px;
+}
