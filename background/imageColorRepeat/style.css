@@ -7,20 +7,32 @@ h1{
 	font-size: 60px;
 }
 
-.simpple_bcg{
+.simpple_bcg, .pictures, .imgs{
 	margin: 0 auto;
 	height: 300px;
 	width: 600px;
-	
-	font-family: "Segoe UI Light";
-	font-size:24px;
-	color: #9DA5A8;
-	background-color: green;
 	text-align: justify;
 	margin-bottom: 100px;
 	border: 1px solid white;
+	font-family: "Segoe UI Light";
+	font-size:24px;
+	color: #9DA5A8;
+	}
+
+
+
+.simpple_bcg{	
+	background-color: green;
 }
 
 .pictures{
+	background-image: url("http://www.lannan.org/images/about/lannan-aspen-400x200.jpg") ;
+	background-repeat: stretch;
+}
+
+.imgs{
+	height: 1200px;
+	background-image: url("http://www.lannan.org/images/about/lannan-aspen-400x200.jpg");
+	background-repeat: repeat-y;
 	
 }
