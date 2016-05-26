@@ -1,0 +1,26 @@
+body{
+	background-color: #403F3E;
+}
+h1{
+	text-align: center;
+	color: #9DA5A8;
+	font-size: 60px;
+}
+
+.simpple_bcg{
+	margin: 0 auto;
+	height: 300px;
+	width: 600px;
+	
+	font-family: "Segoe UI Light";
+	font-size:24px;
+	color: #9DA5A8;
+	background-color: green;
+	text-align: justify;
+	margin-bottom: 100px;
+	border: 1px solid white;
+}
+
+.pictures{
+	
+}
