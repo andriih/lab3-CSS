@@ -1,0 +1,40 @@
+body{
+	background-color: #bebcbb;
+}
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.rgba,
+.rgb,
+.predefined,
+.hsl
+{
+
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	font-size: 24px;
+	color:#000;
+	margin:0 auto;
+	font-family: "Segoe UI Light";
+	text-align: justify;
+}
+
+.rgb{
+	color: rgb( 108, 26, 13 );
+}
+.rgba{
+	color: rgba( 20, 7, 59,20);
+}
+.predefined{
+	color:  #8a1956 ;
+}
+.hsl{
+	color: hsl( 23, 88%, 47% );
