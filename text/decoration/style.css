@@ -1,0 +1,40 @@
+body{
+	background-color: #bebcbb;
+}
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.underline,
+.overline,
+.line-through,
+.none
+{
+
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	font-size: 24px;
+	color:#000;
+	margin:0 auto;
+	font-family: "Segoe UI Light";
+	text-align: justify;
+}
+
+.none{
+	text-decoration: none;
+}
+.overline{
+	text-decoration: overline;
+.line-through{
+	text-decoration: line-through;
+}
+.underline{
+	text-decoration: underline;
+}
