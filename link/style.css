@@ -1,0 +1,46 @@
+body{
+	background-color: #bebcbb;
+}
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+center{	
+	font-size: 24px;
+	color:#000;
+	margin:0 auto;
+	font-family: "Segoe UI Light";
+	text-align: center;
+}
+:link {
+	color: #lightblue;
+	font-family: "Segoe UI";
+	text-decoration: none;
+}
+
+
+#hov:hover{
+	text-decoration:none; 
+	font-size: 40px;
+	color:orange;
+}
+#act:active{
+	text-decoration:none; 
+	font-size:30px;
+	color:green;
+}
+#vis:visited{
+	color:yellow;
+	text-decoration:none;
+	font-size:30px;
+
+}
