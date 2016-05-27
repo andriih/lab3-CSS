@@ -1,0 +1,31 @@
+body{
+	background-color: #bebcbb;
+}
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+.list{	
+	font-size: 24px;
+	color:#000;
+	margin:0 auto;
+	font-family: "Segoe UI Light";
+	text-align: center;
+}
+
+ul li:first-child{
+	background-color: #000;
+	color: #fff;
+}
+q:lang(fr { 
+    quotes: "\00AB" "\00BB"; 
+}
